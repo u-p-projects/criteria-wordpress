@@ -1,0 +1,61 @@
+/* login screen */
+.login h1,
+.login #nav,
+.login #backtoblog {
+  display: none;
+}
+
+/* main ui */
+#wpfooter,
+#wp-admin-bar-comments,
+#wp-admin-bar-wp-logo,
+#wp-admin-bar-new-content,
+.wp-menu-separator {
+  display: none;
+}
+
+/* post ui */
+#minor-publishing-actions #preview-action,
+.postbox#product_categorydiv,
+.postbox#tagsdiv-brand,
+.postbox#tagsdiv-designer,
+.postbox#tagsdiv-material,
+.postbox#tagsdiv-colour,
+.postbox#tagsdiv-edition {
+  display: none !important;
+}
+
+#criteria_welcome button,
+#criteria_welcome h2 {
+  display: none;
+}
+
+.acf-tab-button[data-key="field_59f003adfed07"] {
+  display: none;
+}
+
+.wp-core-ui .button-primary {
+  background: #309cf3 !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* taxonomy */
+#edittag[action="edit-tags.php"] {
+  max-width: none;
+}
+
+/* Multiselect > first option is green */
+.acf-field-59efdcdbafa78 .select2-selection__rendered > li:first-child.select2-selection__choice,
+.acf-field-5a122937bc098 .select2-selection__rendered > li:first-child.select2-selection__choice,
+.acf-field-5a0e5fd866c01 .select2-selection__rendered > li:first-child.select2-selection__choice {
+  background: #c7ffc7;
+}
+
+/* Lead times */
+.acf-field-5a2a296ba1654 .acf-row:nth-child(1n + 2) > td,
+.acf-field-5a15157e3e3d6 .acf-row:nth-child(1n + 2) > td {
+  border-top-color: #dadada;
+  border-top-width: 2rem;
+}
