@@ -1,25 +1,7 @@
 # Criteria
 
-## Build
-```
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-## Server & Database
-``` bash
-# server name
-criteria.development
+This repo contains all the files and data for the wordpress backend 
 
 # database name
 criteria
-```
+
